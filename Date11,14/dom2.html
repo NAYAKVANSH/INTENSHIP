@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="welcom"> java</p>
+    <p class="hello"> nayak</p>
+    <p class="hello"> nayak1</p>
+    <p class="hello"> nayak2</p>
+
+
+    <ul><li>hello</li>
+        <li>hi</li>
+        <li>hoe are you!!</li></ul>
+    <script type="text/javascript">
+        var chaid = document.body.children;
+        console.log(chaid);
+
+        var para = document.createElement("p");
+        var textnode = document.createTextNode("this is new node")
+        para.appendChild(textnode);
+        console.log(para);
+
+        document.body.appendChild(para);
+
+        var list = document.querySelector("ul");
+        console.log(list);
+
+        console.log(list.firstChild);
+        console.log(list.lastChild);
+        
+
+        var firstsiblings = welcom.nextElementSibling
+        console.log(firstsiblings);
+
+        console.log(list.parentNode);
+    </script>
+</body>
+</html>
