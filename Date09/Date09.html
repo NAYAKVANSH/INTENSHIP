@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><b>CodeZone</b></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">about</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            cheak out!
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">python</a></li>
+                            <li><a class="dropdown-item" href="#">Java script!</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here..</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="333.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide </h5>
+                    <p>Exploring the Art of Programming</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="332.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide </h5>
+                    <p>Exploring the Art of Programming</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="331.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide </h5>
+                    <p>Exploring the Art of Programming</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container m-2">
+
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="221.png" class="d-block w-100" alt="...">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Programming Languages and Paradigms</text>
+                        <div class="card-body">
+                            <p class="card-text">Programming languages serve as the bridge between human thought and
+                                machine execution. Each language offers a unique way to solve problems, catering to
+                                different paradigms like procedural, object-oriented, functional,
+                                or declarative. Choosing the right language for a task involves understanding its
+                                strengths, weaknesses, and suitability to the problem domain.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">Programming Languages and Paradigms</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="222.webp" class="d-block w-100" alt="...">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Algorithms and Data Structures</text>
+                        <div class="card-body">
+                            <p class="card-text">Algorithms are the step-by-step instructions that guide a computer in
+                                solving specific problems, while data structures organize and store data for efficient
+                                retrieval and manipulation. The art of designing algorithms and
+                                selecting appropriate data structures lies at the core of efficient and elegant software
+                                development</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">Algorithms and Data Structures</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="223.webp" class="d-block w-100" alt="...">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Version Control and Collaboration:</text>
+                        <div class="card-body">
+                            <p class="card-text">Version control systems like Git enable seamless collaboration among
+                                programmers. They track changes to code over time, allowing teams to work simultaneously
+                                without conflicts.
+                                Features such as branching and merging facilitate parallel development and provide a
+                                safety net for experimentation.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">Version Control and Collaboration:</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="224.jpg" class="d-block w-100" alt="...">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Software Development Life Cycle</text>
+                        <div class="card-body">
+                            <p class="card-text">The software development process encompasses planning, designing,
+                                coding, testing, and deployment. Adhering to a structured development
+                                life cycle ensures software quality, minimizes errors, and maintains clear communication
+                                between stakeholders throughout the project</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">Software Development Life Cycle</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="444.jpg" class="d-block w-100" alt="...">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Web Development and APIs</text>
+                        <div class="card-body">
+                            <p class="card-text">Web development involves building and maintaining websites and web
+                                applications. This field includes front-end development (user interfaces), back-end
+                                development
+                                (server logic and databases), and integration of third-party services through
+                                Application Programming Interfaces (APIs).</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">Web Development and APIs</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img src="226.jpg" class="d-block w-100" alt="...">
+                        <title>Placeholder</title>
+                        <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef"
+                            dy=".3em">Cybersecurity and Ethical Considerations</text>
+                        <div class="card-body">
+                            <p class="card-text">With the increasing reliance on technology, cybersecurity has become
+                                paramount. Coders play a crucial role in developing secure software to protect user data
+                                and digital assets. Ethical considerations,
+                                such as privacy and accessibility, should also guide coding practices to ensure
+                                inclusivity and responsible innovation</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <small class="text-body-secondary">Cybersecurity and Ethical Considerations</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                
+                <footer class="container m-4">
+                    <p class="float-right"><a href="#">Back to top</a></p>
+                    <p>© 2022-2023 Experiment, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+                </footer>
+            </div>
+
+
+</body>
+
+
+</body>
+
+</html>
