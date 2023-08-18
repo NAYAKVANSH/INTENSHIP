@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+
+    <div id="div1">
+        div 1 is hear
+        <button onclick="myfun('div1')">div1</button>
+    </div>
+    <div id="div2">
+        div 2 is hear
+        <button onclick="myfun('div2')">div2</button>
+    </div>
+    <div id="div3   ">
+        div 3 is hear
+        <button onclick="myfun('div3')">div3</button>
+    </div>
+
+    <button onclick="mywhole()">whole</button>
+
+    <script type="text/javascript">
+
+        function mywhole() {
+
+            window.print(); 
+
+        }
+
+        function myfun(paravalue) {
+
+            var backup = document.body.innerHTML;
+            var divcontent = document.getElementById(
+                paravalue).innerHTML
+                document.body.innerHTML = divcontent;
+                window.print();
+                document.body.innerHTML = backup;
+        }
+
+    </script>
+
+</body>
+
+</html>
